@@ -34,20 +34,20 @@ The implemented pipeline consists of:
 python src/01_preprocess.py
 
 
-2. Train the model and evaluate performance
+### 2. Train the model and evaluate performance
 python src/02_train_pipeline.py
 
-3. Run prediction on new data
+### 3. Run prediction on new data
 python src/03_predict.py --csv path/to/input.csv --out out/predictions.csv
 
 
-Results
+### Results
 High classification accuracy on major attack classes
 Metrics per class (precision, recall, F1-score) are available in:
 reports/metrics_report.txt
 
 
 
-Conclusion
+### Conclusion
 This project demonstrates a complete and reproducible NIDS machine learning pipeline, from raw data preprocessing to model training and inference.
 The trained model can be reused for offline analysis or extended to real-time intrusion detection systems.
