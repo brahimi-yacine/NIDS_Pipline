@@ -57,5 +57,5 @@ def main():
     # Display top labels
     print("[i] top labels:\n", df[LABEL_COL].value_counts().head(10))
 
-if name == "main":
+if __name__ == "__main__":
     main()
