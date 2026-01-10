@@ -1,5 +1,10 @@
 # NIDS Pipeline – CIC-IDS2017
 
+## Membre
+Brahimi Mohammed Yacine
+Mohammed Yahiaoui Mourad
+El Fodda Amr Khaled
+
 ## Project Overview
 This project implements a Network Intrusion Detection System (NIDS) using machine learning techniques on the CIC-IDS2017 dataset.  
 The goal is to preprocess network traffic data, train a classification model, evaluate its performance, and perform intrusion detection on new traffic data.
